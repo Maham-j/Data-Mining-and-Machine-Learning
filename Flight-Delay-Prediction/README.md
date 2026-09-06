@@ -3,7 +3,7 @@
 
 A machine learning web application that predicts whether a flight is likely to be delayed based on flight-related information.
 
-The project uses machine learning models for prediction and provides an interactive interface through Streamlit.
+The project uses a machine learning model for prediction and provides an interactive interface through Streamlit.
 
 ## Features
 
@@ -11,16 +11,15 @@ The project uses machine learning models for prediction and provides an interact
 * Interactive Streamlit interface
 * Data preprocessing and feature handling
 * Machine learning-based prediction
-* Supports multiple trained models
+* Random Forest-based flight delay prediction
 * Simple and user-friendly interface
 
 ## Technologies Used
 
 * Python
 * Pandas
-* NumPy
+* Plotly
 * Scikit-learn
-* XGBoost
 * Streamlit
 * Matplotlib
 * Seaborn
@@ -30,9 +29,8 @@ The project uses machine learning models for prediction and provides an interact
 The project uses the following classification models:
 
 * Random Forest Classifier
-* XGBoost Classifier
 
-The models are trained on flight-related data and evaluated to determine their prediction performance.
+The model is trained on flight-related data and evaluated to determine its prediction performance.
 
 ## Project Workflow
 
@@ -40,16 +38,16 @@ The models are trained on flight-related data and evaluated to determine their p
 Flight Dataset
       |
       v
-Data Cleaning & Preprocessing
+Data Cleaning
       |
       v
-Feature Selection
+Feature Preprocessing
       |
       v
 Train/Test Split
       |
       v
-Model Training
+Random Forest Training
       |
       v
 Model Evaluation
@@ -58,7 +56,7 @@ Model Evaluation
 Flight Delay Prediction
       |
       v
-Streamlit Web Application
+Streamlit Dashboard
 ```
 
 ## Project Structure
