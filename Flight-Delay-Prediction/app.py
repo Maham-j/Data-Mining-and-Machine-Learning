@@ -15,7 +15,7 @@ st.set_page_config(page_title="Flight Delay Prediction", layout="wide")
 # -----------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("dataset/flights.csv")
+    df = pd.read_csv("Flight-Delay-Prediction/dataset/flights.csv")
     df.dropna(inplace=True)
     df['Delay'] = df['arr_delay'].apply(lambda x: 1 if x > 15 else 0)
     df.drop(['arr_delay', 'time_hour', 'tailnum'], axis=1, inplace=True)
