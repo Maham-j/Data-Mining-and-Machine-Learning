@@ -69,9 +69,7 @@ Flight-Delay-Predictor/
 ├── app.py
 ├── dataset/
 │   └── flight_data.csv
-├── models/
-│   ├── random_forest.pkl
-│   └── xgboost.pkl
+├── ML_Project_Proposal_Airline_Delay (1).docx
 ├── requirements.txt
 └── README.md
 ```
